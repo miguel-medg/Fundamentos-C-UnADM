@@ -1,5 +1,5 @@
-# Fundamentos-C-UnADM
-Proyectos y tareas realizadas en lenguaje C para la materia Fundamentos de Programación en la UnADM
+# Fundamentos de Programación - UnADM
+
 **Estudiante:** Miguel Díaz  
 **Universidad:** Universidad Abierta y a Distancia de México (UnADM)  
 **Materia:** Fundamentos de Programación
@@ -8,56 +8,63 @@ Proyectos y tareas realizadas en lenguaje C para la materia Fundamentos de Progr
 
 ## Descripción
 
-Repositorio que contiene **todas las actividades evaluadas** desarrolladas en lenguaje **C** durante el curso de Fundamentos de Programación. 
+Colección completa de programas desarrollados en lenguaje **C** para la materia **Fundamentos de Programación** de la UnADM.
 
-Cada programa resuelve un problema específico planteado por la institución, aplicando conceptos como: entrada/salida, estructuras de control, funciones, estructuras (`struct`), arreglos y manejo básico de datos.
-
-**Nota:** Estos proyectos fueron desarrollados como tareas universitarias siguiendo enunciados y requisitos específicos de la UnADM. No se incluye el enunciado original para respetar las normas académicas.
+Este repositorio contiene todas las actividades evaluadas del curso, organizadas en un solo lugar para formar mi portafolio académico.
 
 ---
 
 ## Programas Incluidos
 
-| # | Nombre del Programa                        | Descripción Principal |
-|---|-------------------------------------------|-----------------------|
-| 1 | **Taller Hermanos Benavidez**             | Sistema de registro de ingreso de vehículos con generación de comprobantes para cliente y empresa. |
-| 2 | **Máquina Expendedora**                   | Simulador de vending machine con menú de productos y manejo de monedas (1, 2, 5, 10). |
-| 3 | **PAE - Actividades Extracurriculares**   | Registro de estudiantes y asignación de PAEs (Danza, Pintura, Debate) con control de cupo. |
-| 4 | **Registro de Líneas Telefónicas**        | CRUD básico para líneas telefónicas (Registrar, Buscar por ID/CURP, Eliminar). |
-| 5 | **Cotizador Pinturas Rápidas**            | Calculadora de presupuesto para pintado de paredes (área + IVA). |
-| 6 | **Sistema de Inventario de Papelería**    | Gestión completa de inventario: captura inicial, registro de ventas y reporte final. |
+| # | Archivo                              | Nombre del Proyecto                        | Descripción Principal |
+|---|--------------------------------------|-------------------------------------------|-----------------------|
+| 1 | `TallerVehiculos.c`                  | Taller Hermanos Benavidez                 | Sistema de ingreso de vehículos con comprobantes para cliente y empresa. |
+| 2 | `MaquinaExpendedora.c`               | Máquina Expendedora                       | Simulador de vending machine con pago en monedas. |
+| 3 | `PAE_ActividadesExtracurriculares.c` | PAE - Actividades Extracurriculares       | Registro y asignación de actividades extracurriculares con control de cupo. |
+| 4 | `RegistroLineasTelefonicas.c`        | Registro de Líneas Telefónicas            | Sistema CRUD para registro, búsqueda y eliminación de líneas telefónicas. |
+| 5 | `CotizadorPinturas.c`                | Cotizador Pinturas Rápidas                | Calculadora de presupuesto para pintado de paredes con IVA. |
+| 6 | `InventarioPapeleria.c`              | Sistema de Inventario de Papelería        | Gestión completa de inventario: captura, ventas y reportes. |
 
 ---
 
-## Estructura del Proyecto
+## Estructura del Repositorio
 
-Fundamentos-Programacion-UnADM/
-├── README.md
-├── TallerVehiculos.c
+Fundamentos-C-UnADM/
+├── CotizadorPinturas.c
+├── InventarioPapeleria.c
 ├── MaquinaExpendedora.c
 ├── PAE_ActividadesExtracurriculares.c
 ├── RegistroLineasTelefonicas.c
-├── CotizadorPinturas.c
-└── InventarioPapeleria.c
+├── TallerVehiculos.c
+└── README.md
 
 ---
 
 ## Requisitos
 
-- Compilador de C (GCC recomendado)
-- Compatible con **Windows, Linux y macOS**
+- Compilador GCC (recomendado)
+- Compatible con Windows, Linux y macOS
 
 ---
 
 ## Cómo compilar y ejecutar
 
-### En Windows (MinGW / GCC):
 ```bash
-gcc TallerVehiculos.c -o TallerVehiculos.exe
-TallerVehiculos.exe
-
-En Linux / macOS:bash
-
+# Ejemplo con uno de los programas:
 gcc TallerVehiculos.c -o TallerVehiculos
-./TallerVehiculos
+./TallerVehiculos          # Linux / Mac
+# TallerVehiculos.exe      # Windows
+
+Repite el comando cambiando el nombre del archivo .c según el programa que desees ejecutar.Información AcadémicaCampo
+Detalle
+Materia
+Fundamentos de Programación
+Universidad
+Universidad Abierta y a Distancia de México (UnADM)
+Lenguaje
+C
+Estudiante
+Miguel Díaz
+
+Repositorio creado como portafolio académico del curso.
 
