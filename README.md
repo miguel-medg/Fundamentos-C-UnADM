@@ -12,6 +12,10 @@ Colección completa de programas desarrollados en lenguaje **C** para la materia
 
 Este repositorio contiene todas las actividades evaluadas del curso, organizadas en un solo lugar para formar mi portafolio académico.
 
+## ⚠️ Nota Importante
+Este repositorio contiene proyectos académicos del curso **Fundamentos de Programación** (2025-2026). 
+Sirven como evidencia de mi aprendizaje inicial en lenguaje C.
+
 ---
 
 ## Programas Incluidos
